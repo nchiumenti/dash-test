@@ -1,0 +1,48 @@
+---
+title: "Historic Zoning Maps of Greater Boston"
+orientation: columns
+---
+
+# page 1
+
+## Map {.fill}
+```{r}
+library(leaflet)
+
+leaflet() |> addTiles() |> 
+  setView(lat = 42.3555, lng = -71.0565, zoom = 10)
+
+```
+
+# page 2
+
+::: {.card title="My Title"}
+Card text 
+:::
+
+## Row {.tabset}
+
+### Plots
+
+```{r}
+print('A')
+```
+
+{{< lipsum 3 >}}
+
+
+```{r}
+print('C')
+```
+
+{{< lipsum 3 >}}
+
+
+### Data
+
+```{r}
+print('C')
+```
+
+{{< lipsum 3 >}}
+

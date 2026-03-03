@@ -1,0 +1,10 @@
+project:
+  title: "Historic Zoning Maps of Greater Boston"
+  output-dir: dashboard
+
+format: 
+  dashboard:
+    nav-buttons: [linkedin, twitter, github]
+    
+
+
